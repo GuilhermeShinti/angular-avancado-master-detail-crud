@@ -7,7 +7,7 @@
         <a routerLink="/categories">Categorias</a>
     </li>
     <li class="breadcrumb-item active">
-      Formulário de Categoria
+      Formulário de Categoria 
     </li>
   </ol>
 </nav>
@@ -25,7 +25,7 @@
   </div>
 </div>
 
-<form>
+<form [formGroup]="categoryForm">
   <div class="card">
     <div class="card-header">
       Informações sobre a Categoria
